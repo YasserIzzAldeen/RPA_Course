@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dg5c5j3r0k2nFQNY6FRJFQ" Reference="bdAPj2oJXE65_NmwGBjWxw/VEhzYUKiCEyuUQjFmp0G2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" DesignTimeRectangle="266, 447, 425, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' idx='1' /&gt;" Guid="e088f868-de73-4e43-9da5-8f6b352f8b5d" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='france Coronavirus Worldometer - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5bc230018fa9ec97e96a98e0350303ad.png" xmlns="">0AUTy_4zkTke8VcjID4JNLg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

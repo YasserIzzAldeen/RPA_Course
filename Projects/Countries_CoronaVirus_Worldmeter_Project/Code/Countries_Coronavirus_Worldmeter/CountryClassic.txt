@@ -1,0 +1,3 @@
+Coronavirus Cases: 40,138,560        
+Number of Deaths: 167,642
+Number of Recovered: 15,867,601

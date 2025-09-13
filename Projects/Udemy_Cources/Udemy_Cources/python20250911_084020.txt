@@ -1,0 +1,4 @@
+python
+The Course Name is: 100 Days of Code: The Complete Python Pro Bootcamp
+The Rate of the Course = 597 lectures
+The Price of the Course = 

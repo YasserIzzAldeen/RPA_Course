@@ -1,0 +1,73 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Classic_Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRepeat&Sequence_1",
+        "browser&Sequence_1",
+        "strCourseTitle&Sequence_5",
+        "strCourseName&Sequence_5",
+        "strCourseRate&Sequence_5",
+        "strCoursePrice&Sequence_5",
+        "strPath&Sequence_7",
+        "strFolder&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFolderPath&Sequence_3",
+        "strRepeat&Sequence_1",
+        "browser&Sequence_6",
+        "strCourseTitle&Sequence_2",
+        "strCourseName&Sequence_2",
+        "strCourseRate&Sequence_2",
+        "strCoursePrice&Sequence_2",
+        "strPath&Sequence_3",
+        "strFolder&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRepeat&Sequence_1",
+        "browser&Sequence_2",
+        "strCourseTitle&Sequence_3",
+        "strCourseName&Sequence_3",
+        "strCourseRate&Sequence_3",
+        "strCoursePrice&Sequence_3",
+        "strPath&Sequence_4",
+        "strFolder&Sequence_4",
+        "strFolderPath&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

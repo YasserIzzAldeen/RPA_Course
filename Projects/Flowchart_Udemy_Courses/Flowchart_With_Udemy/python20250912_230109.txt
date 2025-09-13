@@ -1,0 +1,4 @@
+The Chosen Course is: python
+The Name of the Course is: 100 Days of Code: The Complete Python Pro Bootcamp
+The Rate of the Course is: 597 lectures
+The Price of the Course is: Current priceE£2,749.99

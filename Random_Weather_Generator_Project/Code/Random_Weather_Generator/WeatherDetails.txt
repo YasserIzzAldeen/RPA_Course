@@ -1,4 +1,0 @@
-Description: Duststorm Temperature: Moderate High: 42°F
-                    (5°C) Low: 32°F
-                    (0°C) Relative: Colder than normal Wind Force: Severe Wind Speed: 38 mph
-                    (61 kph)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N_edTPz_pUq549k0XJd8bQ" Reference="bdAPj2oJXE65_NmwGBjWxw/M6u_niOYnES3mJLKpUmfbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" ContentHash="yPMwTHkreEeWU2CJD0_LLg" DesignTimeRectangle="266, 447, 413, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' aaname='*Coronavirus Statistics*' check:innerText='Egypt COVID - Coronavirus Statistics' /&gt;" Guid="38fd4401-0798-42f5-9390-e26aebc6a8ed" ImageBase64="" Reference="bdAPj2oJXE65_NmwGBjWxw/M6u_niOYnES3mJLKpUmfbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='egypt coronavirus worldometer - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e06487a14ac494cf403c0d22247d44de.png" xmlns="">0EFqupsTi7Uuq8atElkkwcw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
