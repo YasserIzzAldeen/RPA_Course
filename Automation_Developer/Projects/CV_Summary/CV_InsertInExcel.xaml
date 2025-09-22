@@ -1,0 +1,283 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="CV_InsertInExcel" this:CV_InsertInExcel.In_intRetryCount="3" this:CV_InsertInExcel.In_RetryInterval="00:00:03" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:umae="clr-namespace:UiPath.Mail.Activities.Enums;assembly=UiPath.Mail.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.Mail.Activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="In_intRetryCount" Type="InArgument(x:Int32)" />
+    <x:Property Name="In_RetryInterval" Type="InArgument(x:TimeSpan)" />
+    <x:Property Name="In_dtCVSummary" Type="InArgument(sd:DataTable)" />
+  </x:Members>
+  <this:CV_InsertInExcel.In_dtCVSummary>
+    <InArgument x:TypeArguments="sd:DataTable" />
+  </this:CV_InsertInExcel.In_dtCVSummary>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>CV_InsertInExcel_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Platform</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType10F5523B13Bb405E8177C8949D900475.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.c7wPv3uduHE1MK3nw3UhqAt1</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.EKVF71796GR1LDsSQ2ypvM91</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.veb84hsyzI14d7MDqBBsB4</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.T4oNd2Tk0wP16L6UC3HRbZp2</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.pUqgJy4rSO1h79SMZ3tMa4</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.AJKlP3OefpD1bDLPk1Yty683</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.TT4AX1fYRUM19ElB64tzSot2</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.HD2ff2yuK6L12fpQi1j1eN33</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.ArG6I37ElRL1lyNLC4hE3Y62</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.lbb9D2PTM2D1yg3FY4ioSSr2</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.R0Qu4HXYcB1YEznX4JrvuU3</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.d6kDgswIQL16FOc44hY50S4</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.sJyeJ4WwOoG1CsV9O144Wgq</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.LlJbS3kmFPO12sqTS1fmdjP4</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.8F5Vm1DOcaO1rVz084MAgDw</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.sE7nL13cL2S1QVQfM3i5exx3</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.3KOxj1RwvJ1dE9IdRpBlw3</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.x8m5k3DRhxM1JWOhb4ADa1D4</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.O0CUzlxEJK1sIQ5I3BD7ZP</AssemblyReference>
+      <AssemblyReference>CustomGptDocumentTyp.m3NHb1fUEgE1PvXf81LSI3E4</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Description:  Write The Extracted Data in Excel and Send Mail&#xA;PreCondition: Extract Data From Different CV PDFs Using Document Understanding&#xA;PostCondition:  N/A" DisplayName="CV_InsertInExcel" sap:VirtualizedContainerService.HintSize="901.6000000000001,1811.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="596.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Startting Generating an Excel File&quot;]" />
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="596.8,1388" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="560,1124.8" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="[In_intRetryCount]" RetryInterval="[In_RetryInterval]">
+          <ui:RetryScope.ActivityBody>
+            <ActivityAction>
+              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="518.4,948.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="484.8,888.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="strPath">
+                      <Variable.Default>
+                        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="&quot;E:\RPACourse\RPA\RPA_Course\Automation_Developer\Projects\CV_Summary\Generated_Excel&quot;+&quot;\GeneratedResume.xlsx&quot;" />
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Default="smtp.gmail.com" Name="strServer" />
+                    <Variable x:TypeArguments="x:Int32" Name="strPort">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:Int32" Value="587" />
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Default="yasser.salah.75503@gmail.com" Name="strEmail" />
+                    <Variable x:TypeArguments="x:String" Name="strPassword">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String">ipzk dmwc llmb vrvt</Literal>
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Name="strName">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String">YasserRPA</Literal>
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Name="strEmailFrom">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String">RPACVSummary@gmail.com</Literal>
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Name="strCVBody" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,309.6" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,199.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[In_dtCVSummary]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="382.4,139.2" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="[Path.Combine(strPath,&quot;GeneratedResume.xlsx&quot;)]" />
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                  </ui:CommentOut>
+                  <ui:ReadTextFile File="{x:Null}" Content="[strCVBody]" DisplayName="Read Text File" FileName="CVBody.html" sap:VirtualizedContainerService.HintSize="451.2,112.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+                  <Assign sap:VirtualizedContainerService.HintSize="451.2,113.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[strCVBody]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[strCVBody.Replace("NamePlaceHolder","Eng. Mohamed Mesbah")]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" ResourceAttachmentList="{x:Null}" ResourceAttachments="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" AttachmentInputMode="FilePaths" AttachmentsCollection="[{strPath}]" Body="[strCVBody]" DisplayName="Send SMTP Email" Email="[strEmail]" EnableSSL="True" From="[strEmailFrom]" sap:VirtualizedContainerService.HintSize="451.2,269.6" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="True" IsBodyHtml="True" Name="[strName]" Password="[strPassword]" Port="[strPort]" SecureConnection="StartTls" Server="[strServer]" Subject="CVs Summary" To="yasser.salah.2252000@gmail.com;mesbahmohamed971@gmail.com" UseISConnection="False">
+                    <ui:SendMail.AttachmentsBackup>
+                      <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="FilePaths">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:List x:TypeArguments="x:Object" x:Key="Existing" Capacity="1">
+                            <x:Null />
+                          </scg:List>
+                          <scg:List x:TypeArguments="x:Object" x:Key="FilePaths" Capacity="1">
+                            <x:Null />
+                          </scg:List>
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </ui:SendMail.AttachmentsBackup>
+                    <ui:SendMail.ConnectionDetailsBackupSlot>
+                      <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="LegacyConfiguration">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:List x:TypeArguments="x:Object" x:Key="IntegrationService" Capacity="1">
+                            <x:Null />
+                          </scg:List>
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </ui:SendMail.ConnectionDetailsBackupSlot>
+                    <ui:SendMail.Files>
+                      <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                    </ui:SendMail.Files>
+                  </ui:SendMail>
+                </Sequence>
+              </Sequence>
+            </ActivityAction>
+          </ui:RetryScope.ActivityBody>
+          <ui:RetryScope.Condition>
+            <ActivityFunc x:TypeArguments="x:Boolean" />
+          </ui:RetryScope.Condition>
+        </ui:RetryScope>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="563.2,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="596.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Excel File Generated Successfully&quot;]" />
+  </Sequence>
+</Activity>

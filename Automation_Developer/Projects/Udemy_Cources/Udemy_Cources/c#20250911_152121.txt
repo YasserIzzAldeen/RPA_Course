@@ -1,0 +1,4 @@
+c#
+The Course Name is: Complete C# Masterclass
+The Rate of the Course = 485 lectures
+The Price of the Course = 

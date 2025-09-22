@@ -1,0 +1,5 @@
+Invoice ID: 162195
+Tax ID: DE767565
+The Address: Bingauer Strasse 45
+Vendor: Maxitronic Limited
+Total Amount: 90366 EUR

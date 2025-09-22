@@ -1,0 +1,5 @@
+Invoice ID: 419347
+Tax ID: RO094782
+The Address: Bulevardul Unirii 11
+Vendor: Mecatronic Group
+Total Amount: 65902.8 CAD

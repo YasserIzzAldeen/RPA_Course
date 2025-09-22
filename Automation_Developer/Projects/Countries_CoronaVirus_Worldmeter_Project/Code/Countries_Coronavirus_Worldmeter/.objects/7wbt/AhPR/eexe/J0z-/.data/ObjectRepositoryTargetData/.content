@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZGUuwvkZB0Sn2dtjzkdxpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2a5d4a38-5914-4ae7-9738-d73156af8b66" CvElementArea="164, 450, 777, 29" CvType="InputBox" DesignTimeRectangle="169, 455, 752, 22" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="bcbbcdd5-64af-41e7-ac2a-532516788020" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Save as' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2a5d4a38-5914-4ae7-9738-d73156af8b66" CvTextArea="91, 457, 69, 15" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="22, 452, 144, 28" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' automationid='' check:text='File name:' /&gt;" Guid="883f275f-2680-4852-acd5-5e480760fa73" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="65b80ab2140d3163b48551c7cff0b994.png" xmlns="">0-EHABhUl_kWOcv7EhHDCfQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

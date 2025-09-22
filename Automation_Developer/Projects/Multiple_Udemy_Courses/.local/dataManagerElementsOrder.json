@@ -1,0 +1,181 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "browser&Sequence_1",
+        "strCourseName1&Flowchart_1",
+        "strCourseRate1&Flowchart_1",
+        "strCoursePrice1&Flowchart_1",
+        "strCourseName2&Flowchart_1",
+        "strCourseRate2&Flowchart_1",
+        "strCoursePrice2&Flowchart_1",
+        "strCourseName3&Flowchart_1",
+        "strCourseRate3&Flowchart_1",
+        "strCoursePrice3&Flowchart_1",
+        "strMinPriceName&Flowchart_1",
+        "dblMinPrice&Flowchart_1",
+        "strCourseTitle&Flowchart_1",
+        "strRepeat&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Open_Udemy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUdemyUrl&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Login_Udemy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Search_For_The_Course.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Out_strCourseTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Extract_Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Extract_Data_From_Course1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCourse1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strCoursePrice1",
+        "strCourseRate1",
+        "strCourseName1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Extract_Data_From_Course2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCourse2&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strCoursePrice2",
+        "strCourseRate2",
+        "strCourseName2"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Extract_Data_From_Course3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCourse3&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strCoursePrice3",
+        "strCourseRate3",
+        "strCourseName3"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SignOut.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Open_Notepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_MinPriceNames",
+        "In_strMinPrice",
+        "In_strCoursePrice3",
+        "In_strCoursePrice2",
+        "In_strCoursePrice1",
+        "In_strCourseRate3",
+        "In_strCourseRate2",
+        "In_strCourseRate1",
+        "In_strCourseName3",
+        "In_strCourseName2",
+        "In_strCourseName1",
+        "In_strCourseTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Compare_Prices.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dblPrices&Sequence_11",
+        "strCoursePrice1&Sequence_11",
+        "strCoursePrice2&Sequence_11",
+        "strCoursePrice3&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strCoursePrice1",
+        "strMinPriceName",
+        "dblMinPrice",
+        "In_strCourseName3",
+        "In_strCourseName2",
+        "In_strCourseName1",
+        "In_strCoursePrice3",
+        "In_strCoursePrice2"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Save_The_Notepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFolderPath&Sequence_3",
+        "strPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strCourseTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

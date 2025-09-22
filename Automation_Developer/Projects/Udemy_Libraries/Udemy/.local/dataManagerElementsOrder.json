@@ -1,0 +1,59 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_ProfileExist&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_Browser",
+        "In_UdemyUrl",
+        "In_RetryInterval",
+        "In_RetryCount"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_UdemyLogoExist&Sequence_3",
+        "bool_ProfileExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InRetryInterval",
+        "InRetryCount"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_ProfileExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+ruby
+The Course Name is: The Complete Ruby on Rails Developer Course
+The Rate of the Course = 433 lectures
+The Price of the Course = 

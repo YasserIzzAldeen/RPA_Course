@@ -1,0 +1,5 @@
+Invoice ID: 306821
+Tax ID: RU567434
+The Address: Pobeda Ulitsa 21
+Vendor: Red Communications
+Total Amount: 322519 USD

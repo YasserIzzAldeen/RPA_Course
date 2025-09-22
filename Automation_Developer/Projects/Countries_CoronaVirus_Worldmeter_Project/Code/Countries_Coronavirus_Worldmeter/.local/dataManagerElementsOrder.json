@@ -1,0 +1,67 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Classic_Extract_Coronavirus_Details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFolderPath&Sequence_6",
+        "strPath&Sequence_6",
+        "notepad&Sequence_5",
+        "Output&Sequence_5",
+        "strCountry&Sequence_2",
+        "browser&Sequence_2",
+        "strCoronaCases&Sequence_5",
+        "strDeath&Sequence_5",
+        "strDeaths&Sequence_5",
+        "strRecovered&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Modern_Extract_Coronavirus_Details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRecovered&Sequence_9",
+        "strDeaths&Sequence_9",
+        "strCoronaCases&Sequence_9",
+        "strCountry&Sequence_2",
+        "browser&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCountry&Sequence_2",
+        "browser&Sequence_2",
+        "strCoronaCases&Sequence_3",
+        "strDeaths&Sequence_3",
+        "strRecovered&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

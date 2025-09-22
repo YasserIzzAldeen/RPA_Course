@@ -1,0 +1,5 @@
+Invoice ID: 260907
+Tax ID: 
+The Address: Bingauer Strasse 45
+Vendor: Maxitronic Limited
+Total Amount: 82604.4 USD

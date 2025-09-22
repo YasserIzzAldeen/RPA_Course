@@ -1,0 +1,4 @@
+The Chosen Course is: python
+The Name of the Course is: Udemy Business
+The Rate of the Course is: 31.5 total hours
+The Price of the Course is: 

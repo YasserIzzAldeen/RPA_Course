@@ -1,0 +1,5 @@
+Invoice ID: 899713
+Tax ID: 
+The Address: Via Longa 201
+Vendor: Softing Company
+Total Amount: 202553 EUR

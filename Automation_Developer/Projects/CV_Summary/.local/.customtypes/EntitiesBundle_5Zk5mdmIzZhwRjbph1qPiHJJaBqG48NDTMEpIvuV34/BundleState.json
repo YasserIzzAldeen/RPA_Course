@@ -1,0 +1,229 @@
+{
+  "assemblyStates": {
+    "CustomGptDocumentTyp.lbb9D2PTM2D1yg3FY4ioSSr2": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType10665C1499C2441787188Bf151229Abc.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType10665C1499C2441787188Bf151229Abc",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.lbb9D2PTM2D1yg3FY4ioSSr2"
+      }
+    },
+    "CustomGptDocumentTyp.O0CUzlxEJK1sIQ5I3BD7ZP": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeE506Ffa6A697435480C13Ecf612Cdb73.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeE506Ffa6A697435480C13Ecf612Cdb73",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.O0CUzlxEJK1sIQ5I3BD7ZP"
+      }
+    },
+    "CustomGptDocumentTyp.x8m5k3DRhxM1JWOhb4ADa1D4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType32E9D21D26604E57823FC601De10A26D.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType32E9D21D26604E57823FC601De10A26D",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.x8m5k3DRhxM1JWOhb4ADa1D4"
+      }
+    },
+    "CustomGptDocumentTyp.1Pjrq1IDWCD1xoNqU2L4yfZ2": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType7Fee485EFb4F45E198DfD3A40761C561.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType7Fee485EFb4F45E198DfD3A40761C561",
+        "hash": "LTgyNjUxNzM0MA",
+        "assemblyName": "CustomGptDocumentTyp.1Pjrq1IDWCD1xoNqU2L4yfZ2"
+      }
+    },
+    "CustomGptDocumentTyp.AJKlP3OefpD1bDLPk1Yty683": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType5E605428A7D44E82B952B28E8Dc5Cf07.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType5E605428A7D44E82B952B28E8Dc5Cf07",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.AJKlP3OefpD1bDLPk1Yty683"
+      }
+    },
+    "CustomGptDocumentTyp.rnjXI9D84R1chLnZ0d3A31": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeE1F6D906Eece4F2FAdb710Ff1Dcef5Bf.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeE1F6D906Eece4F2FAdb710Ff1Dcef5Bf",
+        "hash": "LTgyNjUxNzM0MA",
+        "assemblyName": "CustomGptDocumentTyp.rnjXI9D84R1chLnZ0d3A31"
+      }
+    },
+    "CustomGptDocumentTyp.veb84hsyzI14d7MDqBBsB4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType4Acde948C25845Ac9C5E665B388B3053.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType4Acde948C25845Ac9C5E665B388B3053",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.veb84hsyzI14d7MDqBBsB4"
+      }
+    },
+    "CustomGptDocumentTyp.PmBYN2AksGR18SEuu1J8TK13": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType0F271C8AE6C94034B796D48Ad0C2B18C.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType0F271C8AE6C94034B796D48Ad0C2B18C",
+        "hash": "LTgyNjUxNzM0MA",
+        "assemblyName": "CustomGptDocumentTyp.PmBYN2AksGR18SEuu1J8TK13"
+      }
+    },
+    "CustomGptDocumentTyp.sJyeJ4WwOoG1CsV9O144Wgq": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType326A955B58D84A9486B23790847C545D.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType326A955B58D84A9486B23790847C545D",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.sJyeJ4WwOoG1CsV9O144Wgq"
+      }
+    },
+    "CustomGptDocumentTyp.sE7nL13cL2S1QVQfM3i5exx3": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeFccdfd0B064B4685B41038A05Ca081E1.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeFccdfd0B064B4685B41038A05Ca081E1",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.sE7nL13cL2S1QVQfM3i5exx3"
+      }
+    },
+    "CustomGptDocumentTyp.d6kDgswIQL16FOc44hY50S4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeD3B3D8400Ede457DAf7A8A760Ffed031.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeD3B3D8400Ede457DAf7A8A760Ffed031",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.d6kDgswIQL16FOc44hY50S4"
+      }
+    },
+    "CustomGptDocumentTyp.c7wPv3uduHE1MK3nw3UhqAt1": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeB48Ac2E3159A44E9A2CeF482Ac337574.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeB48Ac2E3159A44E9A2CeF482Ac337574",
+        "hash": "LTMzNTA5MjI3Mg",
+        "assemblyName": "CustomGptDocumentTyp.c7wPv3uduHE1MK3nw3UhqAt1"
+      }
+    },
+    "CustomGptDocumentTyp.T4oNd2Tk0wP16L6UC3HRbZp2": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType06858F7C0E334D818714E7136D5682B7.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType06858F7C0E334D818714E7136D5682B7",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.T4oNd2Tk0wP16L6UC3HRbZp2"
+      }
+    },
+    "CustomGptDocumentTyp.pUqgJy4rSO1h79SMZ3tMa4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType90C109BcE2874Aed8D73891032A8327B.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType90C109BcE2874Aed8D73891032A8327B",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.pUqgJy4rSO1h79SMZ3tMa4"
+      }
+    },
+    "CustomGptDocumentTyp.EKVF71796GR1LDsSQ2ypvM91": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType75515De58E5D4A0AA8Ee34Efd61Ee573.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType75515De58E5D4A0AA8Ee34Efd61Ee573",
+        "hash": "ODIwODk1MDI5",
+        "assemblyName": "CustomGptDocumentTyp.EKVF71796GR1LDsSQ2ypvM91"
+      }
+    },
+    "CustomGptDocumentTyp.TT4AX1fYRUM19ElB64tzSot2": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType0906E2E744Cd4Ced8Ac8F95Ddb61A091.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType0906E2E744Cd4Ced8Ac8F95Ddb61A091",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.TT4AX1fYRUM19ElB64tzSot2"
+      }
+    },
+    "CustomGptDocumentTyp.N3JnD25XwlS1bjwan2ouJRZ4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType6Fc913C199De40A6982518F76Eabb81E.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType6Fc913C199De40A6982518F76Eabb81E",
+        "hash": "LTgyNjUxNzM0MA",
+        "assemblyName": "CustomGptDocumentTyp.N3JnD25XwlS1bjwan2ouJRZ4"
+      }
+    },
+    "CustomGptDocumentTyp.R0Qu4HXYcB1YEznX4JrvuU3": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType5B6C38C900B64945B6BdE75A417F4E16.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType5B6C38C900B64945B6BdE75A417F4E16",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.R0Qu4HXYcB1YEznX4JrvuU3"
+      }
+    },
+    "CustomGptDocumentTyp.ArG6I37ElRL1lyNLC4hE3Y62": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeAad340F25E0D435A81182D0E20253D90.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeAad340F25E0D435A81182D0E20253D90",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.ArG6I37ElRL1lyNLC4hE3Y62"
+      }
+    },
+    "CustomGptDocumentTyp.HD2ff2yuK6L12fpQi1j1eN33": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType10F5523B13Bb405E8177C8949D900475.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType10F5523B13Bb405E8177C8949D900475",
+        "hash": "LTMzNTA5MjI3Mg",
+        "assemblyName": "CustomGptDocumentTyp.HD2ff2yuK6L12fpQi1j1eN33"
+      }
+    },
+    "CustomGptDocumentTyp.8F5Vm1DOcaO1rVz084MAgDw": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeE5F5Adbe548F47528504Fdcd58B75A8E.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeE5F5Adbe548F47528504Fdcd58B75A8E",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.8F5Vm1DOcaO1rVz084MAgDw"
+      }
+    },
+    "CustomGptDocumentTyp.LlJbS3kmFPO12sqTS1fmdjP4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType256021E441134E5FB2D6A66B30Cd03A7.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType256021E441134E5FB2D6A66B30Cd03A7",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.LlJbS3kmFPO12sqTS1fmdjP4"
+      }
+    },
+    "CustomGptDocumentTyp.3KOxj1RwvJ1dE9IdRpBlw3": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeB44B3F688B34471CA9E9C5Ba8F017Ece.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeB44B3F688B34471CA9E9C5Ba8F017Ece",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.3KOxj1RwvJ1dE9IdRpBlw3"
+      }
+    },
+    "CustomGptDocumentTyp.H6IdbRlIwP1Uwv1S2ZWXjL": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType2Ae914840Cb34791A365D7F6A5874D02.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentType2Ae914840Cb34791A365D7F6A5874D02",
+        "hash": "LTgyNjUxNzM0MA",
+        "assemblyName": "CustomGptDocumentTyp.H6IdbRlIwP1Uwv1S2ZWXjL"
+      }
+    },
+    "CustomGptDocumentTyp.m3NHb1fUEgE1PvXf81LSI3E4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeFf646A72Eb3D45DbA83DEb52B9Cd4C8F.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.CustomGptDocumentTypeFf646A72Eb3D45DbA83DEb52B9Cd4C8F",
+        "hash": "LTEzNDE0NjEzMDA",
+        "assemblyName": "CustomGptDocumentTyp.m3NHb1fUEgE1PvXf81LSI3E4"
+      }
+    }
+  }
+}

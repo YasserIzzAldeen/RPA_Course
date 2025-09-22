@@ -1,0 +1,5 @@
+Invoice ID: 600431
+Tax ID: IT213456
+The Address: Via Alta 32
+Vendor: Microtronic Enterprise
+Total Amount: 16999.2 RON

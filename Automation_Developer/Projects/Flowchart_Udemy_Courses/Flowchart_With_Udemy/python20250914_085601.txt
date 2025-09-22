@@ -1,0 +1,4 @@
+The Chosen Course is: python
+The Name of the Course is: Skip to content
+The Rate of the Course is: Bestseller
+The Price of the Course is: 

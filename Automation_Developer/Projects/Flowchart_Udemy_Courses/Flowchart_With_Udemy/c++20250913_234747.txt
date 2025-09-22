@@ -1,0 +1,4 @@
+The Chosen Course is: c++
+The Name of the Course is: Beginning C++ Programming - From Beginner to Beyond
+The Rate of the Course is: 305 lectures
+The Price of the Course is: 

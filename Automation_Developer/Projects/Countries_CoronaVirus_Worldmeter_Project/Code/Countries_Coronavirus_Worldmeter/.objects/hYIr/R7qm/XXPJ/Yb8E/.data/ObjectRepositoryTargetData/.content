@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2Bq0D5V6wU-37EmYQ7cfgw" Reference="bdAPj2oJXE65_NmwGBjWxw/Yb8E1aPrSEqkHA5dcHeFIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com" DesignTimeRectangle="793, 532, 159, 45" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;input' tag='INPUT' /&gt;" Guid="c5423dbd-f3da-4603-92ff-ffcdc1fe1ae8" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1ed33374d14d2aff2eb7b452cbc6982a.png" xmlns="">0_0EEczktw0OLrajmYdTNzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

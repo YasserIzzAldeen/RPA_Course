@@ -1,0 +1,57 @@
+{
+  "DisplayName": "Udemy_Launch",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "In_RetryCount",
+      "DisplayName": "In_RetryCount",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "In_RetryInterval",
+      "DisplayName": "In_RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "In_UdemyUrl",
+      "DisplayName": "In_UdemyUrl",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "www.udemy.com/",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Out_Browser",
+      "DisplayName": "Out_Browser",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

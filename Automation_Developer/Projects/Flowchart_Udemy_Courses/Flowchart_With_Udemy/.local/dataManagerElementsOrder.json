@@ -1,0 +1,168 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolRepeat&Sequence_1",
+        "strCourseName&Flowchart_1",
+        "strCourseRate&Flowchart_1",
+        "strCoursePrice&Flowchart_1",
+        "strCourseTitle&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Open_Notepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strNotepad&Sequence_3",
+        "strPath&Sequence_2",
+        "strFolder&Sequence_2",
+        "strFolderPath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strCourseName",
+        "strCourseRate",
+        "strCourseTitle",
+        "strCoursePrice"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Open_Udemy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Search_For_Course.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "strCourseTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Extract_Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "strCoursePrice",
+        "strCourseRate",
+        "strCourseName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Repeat_Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRepeat&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Save_As_To_The_Notepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPath&Sequence_1",
+        "strFolderPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "browser",
+        "strCourseTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Extract_Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "strCourseName",
+        "strCourseRate",
+        "strCoursePrice"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemt_Open_Udemy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Open_Notepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strNotepad&Sequence_3",
+        "strPath&Sequence_2",
+        "strFolder&Sequence_2",
+        "strFolderPath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strCourseName",
+        "strCourseRate",
+        "strCourseTitle",
+        "strCoursePrice"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Save_As_To_The_Notepad.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFolderPath&Sequence_1",
+        "strPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strCourseTitle",
+        "browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Udemy_Search_For_Course.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "strCourseTitle"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

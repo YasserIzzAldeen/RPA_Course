@@ -1,0 +1,63 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CV_ExtractData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtCVSummary&Sequence_1",
+        "CVFiles&Sequence_3",
+        "strPath&Sequence_3",
+        "boolFileExist&Sequence_3",
+        "strFilesPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_dtCVSummary",
+        "In_intRetryCount",
+        "In_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CV_InsertInExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCVBody&Sequence_3",
+        "strEmailFrom&Sequence_3",
+        "strName&Sequence_3",
+        "strPassword&Sequence_3",
+        "strEmail&Sequence_3",
+        "strPort&Sequence_3",
+        "strServer&Sequence_3",
+        "strPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_dtCVSummary",
+        "In_RetryInterval",
+        "In_intRetryCount"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtCVSummary&Sequence_1",
+        "RetryInterval&Sequence_1",
+        "intRetryCount&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

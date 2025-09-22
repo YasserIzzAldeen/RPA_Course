@@ -1,0 +1,13 @@
+﻿{
+  "Name": "CountryModern.txt - Notepad(1)",
+  "Type": "Screen",
+  "Id": "2mMq7ZxvpUWB9zx1Z-Kn1Q",
+  "Reference": "bdAPj2oJXE65_NmwGBjWxw/2mMq7ZxvpUWB9zx1Z-Kn1Q",
+  "ParentRef": "bdAPj2oJXE65_NmwGBjWxw/AhPRHC4ARke-sM7Rgi7mCw",
+  "Created": "2025-09-09T17:27:28.8180549Z",
+  "Updated": "2025-09-09T17:27:28.8180549Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

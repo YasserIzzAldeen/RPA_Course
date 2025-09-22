@@ -1,0 +1,5 @@
+Invoice ID: 808081
+Tax ID: FR329083
+The Address: Avenue Foch 28
+Vendor: Blue Lagoon
+Total Amount: 351772 USD

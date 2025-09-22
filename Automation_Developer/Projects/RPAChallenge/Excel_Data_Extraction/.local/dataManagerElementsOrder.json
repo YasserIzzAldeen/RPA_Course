@@ -1,0 +1,146 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "intRetryCount&Sequence_1",
+        "RetryInterval&Sequence_1",
+        "RPAChallengeUrl&Sequence_1",
+        "Browser&Sequence_1",
+        "dtChallengeData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPA_Challenge_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLogoExist&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_Browser",
+        "In_RPAChallengeUrl",
+        "In_RetryInterval",
+        "In_intRetryCount"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPAChallenge_Excel_Extraction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFirstName&Sequence_6",
+        "boolExcelFileExist&Sequence_7",
+        "boolRPALogoExist&Sequence_8",
+        "boolLogoExist&Sequence_3",
+        "boolExcelFileExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_RetryInterval",
+        "In_intRetryCount1",
+        "Out_dtChallengeData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPAChallenge_Inser_Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolCongratulationExist&Sequence_11",
+        "In_intPhoneNumber&Sequence_1",
+        "In_strEmail&Sequence_1",
+        "In_strRoleInCompany&Sequence_1",
+        "In_strCompanyName&Sequence_1",
+        "In_strAddress&Sequence_1",
+        "In_strFirstName&Sequence_1",
+        "In_strLastName&Sequence_1",
+        "In_Iterator&Sequence_1",
+        "boolRPALogoExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_dtChallengeData",
+        "In_RetryInterval",
+        "In_intRetryCount"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPAChalllenge_SendMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSender&Sequence_6",
+        "strPassword&Sequence_6",
+        "strServer&Sequence_6",
+        "intPort&Sequence_6",
+        "strName&Sequence_6",
+        "strMailFrom&Sequence_6",
+        "strSMTPBody&Sequence_6",
+        "strSubject&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryCount",
+        "In_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPAChallenge_Result.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolCongratulationExist&Sequence_5",
+        "ScreenshotImage&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryCount",
+        "In_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPAChallenge_DowloadingExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLogoExist&Sequence_3",
+        "strPath&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryCount1",
+        "In_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "RPAChallenge_ExcelExtraction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPath&Sequence_8",
+        "strFirstName&Sequence_8",
+        "boolRPALogoExist&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_RetryInterval",
+        "Out_dtChallengeData",
+        "In_intRetryCount"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

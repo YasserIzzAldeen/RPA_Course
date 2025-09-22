@@ -1,0 +1,5 @@
+Invoice ID: 769101
+Tax ID: RO212121
+The Address: Strada Verde 67
+Vendor: Green Restaurant
+Total Amount: 150464 RON

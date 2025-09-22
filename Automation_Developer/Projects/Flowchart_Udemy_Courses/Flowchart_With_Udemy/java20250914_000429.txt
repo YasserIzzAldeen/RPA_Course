@@ -1,0 +1,4 @@
+The Chosen Course is: java
+The Name of the Course is: Java Masterclass 2025: 130+ Hours of Expert Lessons
+The Rate of the Course is: Rating: 4.6 out of 5
+The Price of the Course is: Become a Java developer - Core Java, Functional Programming, Lambdas, Streams, Collections, Covers upto Java 24

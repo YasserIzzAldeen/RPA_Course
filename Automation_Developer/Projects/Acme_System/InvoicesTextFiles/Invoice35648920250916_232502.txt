@@ -1,0 +1,5 @@
+Invoice ID: 356489
+Tax ID: 
+The Address: Via Prossima 12
+Vendor: IT Works
+Total Amount: 324139 CAD

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Extract Work Items Table ",
+  "Type": "Element",
+  "Id": "O2mRrXjQTkytxNmaZa_wJw",
+  "Reference": "90D9RYbArkyPjWzVJCS1Wg/O2mRrXjQTkytxNmaZa_wJw",
+  "ParentRef": "90D9RYbArkyPjWzVJCS1Wg/MnQo5aCTekih2me6fMICrQ",
+  "Created": "2025-09-21T18:55:12.6573498Z",
+  "Updated": "2025-09-21T18:55:12.6573498Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

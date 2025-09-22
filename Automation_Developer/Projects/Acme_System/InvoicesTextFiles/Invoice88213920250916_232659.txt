@@ -1,0 +1,5 @@
+Invoice ID: 882139
+Tax ID: 
+The Address: Strada Verde 67
+Vendor: Green Restaurant
+Total Amount: 3330 CAD

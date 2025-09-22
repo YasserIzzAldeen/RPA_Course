@@ -1,0 +1,52 @@
+INVOICE
+
+
+
+Invoice ID: 162195
+
+Vendor: Maxitronic mited
+
+Address:Bingauer rasse 45 Date: 017-01-19
+
+
+
+Tax ID: E767565
+
+City: Koln,
+
+
+
+Country: Germany
+
+
+
+TO ACME Systems Inc.
+
+RO012326
+
+Somewhere Road, 59
+
+ilding A
+Bucharest
+
+Romania
+
+Item # Item Description nit Price Units Total
+
+
+
+1  Beverages and Catering 75305 EUR 1 75305 EUR
+
+
+
+Subtotal:    75305 EUR
+
+          1 EUR
+
+
+Total:      366 EUR
+
+
+
+Payment Terms are seven days from receipt of invoice with authorized imesheet
+

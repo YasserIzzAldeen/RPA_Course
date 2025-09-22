@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ad6FqYm1JEyg3eMacJ0r1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="182, 48, 397, 44" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='Breadcrumb Parent' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='Breadcrumb Parent' check:fulltext='All locations&amp;#xD;&amp;#xA;This PC&amp;#xD;&amp;#xA;New Volume (E:)&amp;#xD;&amp;#xA;‎RPACourse&amp;#xD;&amp;#xA;‎RPA&amp;#xD;&amp;#xA;‎RPA_Course&amp;#xD;&amp;#xA;‎Countries_CoronaVirus_Worldmeter_Project&amp;#xD;&amp;#xA;‎Code&amp;#xD;&amp;#xA;‎Countries_Coronavirus_Worldmeter' /&gt;" Guid="c9090743-e551-446b-b371-ffbeb5fc730f" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Save as' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fa1a4b845d95fa0d0824925f107164e0.png" xmlns="">0ETj1geohhkGsXpNwq-okbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

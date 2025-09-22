@@ -1,0 +1,33 @@
+{
+  "DisplayName": "Udemy_Login",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "InRetryCount",
+      "DisplayName": "InRetryCount",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "InRetryInterval",
+      "DisplayName": "InRetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

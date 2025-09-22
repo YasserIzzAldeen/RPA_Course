@@ -1,0 +1,92 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".templates/Organization_Tempate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_IsLoginExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_RetryInterval",
+        "In_strAcmeUrl",
+        "In_intRetryNum",
+        "Out_Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_LogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_IsDashboardExist&Sequence_15",
+        "bool_IsLoginExist&Sequence_15",
+        "strPassword&Sequence_1",
+        "bool_IsLoginExist&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strUserName",
+        "In_strPassward"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Extract_PDFs_Data.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolNotepadExist&Sequence_4",
+        "strTaxId&Sequence_1",
+        "strAddress&Sequence_1",
+        "strTotal&Sequence_1",
+        "strVendor&Sequence_1",
+        "strInvoiceID&Sequence_1",
+        "AllFiles&Sequence_1",
+        "strInvoicesList&Sequence_1",
+        "intIterator&Sequence_1",
+        "strInvoicesText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_RetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AllFiles&Sequence_1",
+        "strInvoicesText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

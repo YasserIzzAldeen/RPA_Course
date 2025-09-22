@@ -1,0 +1,4 @@
+The Chosen Course is: c#
+The Name of the Course is: Complete C# Masterclass
+The Rate of the Course is: Rating: 4.6 out of 5
+The Price of the Course is: 

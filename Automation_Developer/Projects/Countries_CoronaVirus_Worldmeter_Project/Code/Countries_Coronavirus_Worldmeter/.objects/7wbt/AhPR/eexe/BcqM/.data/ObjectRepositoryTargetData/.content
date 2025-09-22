@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NR_5nwAa20i6CuOwHWjFcA" Reference="bdAPj2oJXE65_NmwGBjWxw/BcqMWO3ndUiIf9ZDKheu6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ccdfb949-61f8-4160-8b9c-68ce4f0170d9" CvElementArea="661, 460, 251, 42" CvType="InputBox" DesignTimeRectangle="661, 460, 251, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" Guid="eaf29352-2e93-4300-8e28-2d12740cba06" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='*CountryModern.txt - Notepad' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ccdfb949-61f8-4160-8b9c-68ce4f0170d9" CvTextArea="133, 473, 50, 21" CvTextArgument="Family" CvType="Text" DesignTimeRectangle="133, 473, 50, 21" ElementType="Text" Guid="2ceb8d44-658f-4b43-988a-0baeaac79ad9" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-18" Y="-22" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="43490740d2fcfcda7397b96f123f844c.png" xmlns="">0MsY2mq11U0K6knrgkxiQ4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

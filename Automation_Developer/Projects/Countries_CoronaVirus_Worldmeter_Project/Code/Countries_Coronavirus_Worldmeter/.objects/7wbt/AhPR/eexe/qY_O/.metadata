@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Coronavirus Cases 516,…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "qY_OkZbqS0u1KH6InpoPOQ",
+  "Reference": "bdAPj2oJXE65_NmwGBjWxw/qY_OkZbqS0u1KH6InpoPOQ",
+  "ParentRef": "bdAPj2oJXE65_NmwGBjWxw/eexe-8r3HE6ojptRsjMUoQ",
+  "Created": "2025-09-10T05:53:54.0819596Z",
+  "Updated": "2025-09-10T05:53:54.0819596Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

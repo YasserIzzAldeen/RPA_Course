@@ -1,0 +1,4 @@
+The Chosen Course is: javascript
+The Name of the Course is: The Complete JavaScript Course 2025: From Zero to Expert!
+The Rate of the Course is: 71.5 total hours
+The Price of the Course is: 
