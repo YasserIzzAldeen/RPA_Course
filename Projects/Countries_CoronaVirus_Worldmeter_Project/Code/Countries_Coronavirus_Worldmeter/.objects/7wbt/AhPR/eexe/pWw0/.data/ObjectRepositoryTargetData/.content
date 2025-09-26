@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="DfvjqTRiu0mqj89GWXkkmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f7c31bb9-3ae4-46c7-ae4d-1f99a421a6ca" CvTextArea="23, 65, 28, 16" CvTextArgument="File" CvType="Text" DesignTimeRectangle="23, 65, 28, 16" DesignTimeScaleFactor="1.25" ElementType="Text" Guid="098dcb9e-f9e1-4c85-b711-e0562533afcd" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='*CountryModern.txt - Notepad' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="71b2bf47d9675da919913b6feafe19dc.png" xmlns="">0NlThFzNoBEiqXGaz5biesA</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

@@ -1,4 +1,0 @@
-c
-The Course Name is: Beginning C++ Programming - From Beginner to Beyond
-The Rate of the Course = 305 lectures
-The Price of the Course = Become a True Master of the C Programming Language - Confidently Apply for Real Time or Embedded C Jobs or contracts!

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="_8wITQ5U_Uajl9tZ7EF_cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d9e19679-dbd8-4378-bc70-686ca4ef1e8d" CvTextArea="17, 571, 37, 25" CvTextArgument="I 28" CvType="Text" DesignTimeRectangle="17, 571, 37, 25" DesignTimeScaleFactor="1.25" ElementType="Text" Guid="f62cdaff-85c6-4907-a353-4d9ba17711ff" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='PopupHost' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="08753769f0b49df3cae60cb66e78918e.png" xmlns="">0RQP3WUp12UWZGSYiuA51Wg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>
