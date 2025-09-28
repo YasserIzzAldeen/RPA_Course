@@ -12,8 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Browser&Sequence_4",
-        "dtFilteredDataTable&Sequence_33",
+        "Browser&StateMachine_1",
         "TransactionItem&StateMachine_1",
         "SystemException&StateMachine_1",
         "BusinessException&StateMachine_1",
@@ -24,7 +23,8 @@
         "TransactionField1&StateMachine_1",
         "TransactionID&StateMachine_1",
         "dt_TransactionData&StateMachine_1",
-        "ConsecutiveSystemExceptions&StateMachine_1"
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "dtFilteredDataTable&Sequence_33"
       ],
       "ArgumentsSectionElementsOrder": [
         "in_OrchestratorQueueName",
@@ -126,8 +126,9 @@
       "Path": "Acme_Workflows/Acme_ExtractWorkItemsData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "listQueueItems&Sequence_6",
-        "strReference&Sequence_7"
+        "boolDashboardExist&Sequence_3",
+        "boolWorkItemsExist&Sequence_3",
+        "dtExtractWorkItems&Sequence_6"
       ],
       "ArgumentsSectionElementsOrder": [
         "In_RetryInterval",
@@ -146,6 +147,7 @@
         "listQueueItems&Sequence_6"
       ],
       "ArgumentsSectionElementsOrder": [
+        "in_Config",
         "In_dtFilteredDataTable",
         "In_tsRetryInterval",
         "In_intRetryNum"
@@ -154,7 +156,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Acme_Logout.xaml",
+      "Path": "Acme_Workflows/Acme_Logout.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "boolLoginExist&Sequence_5"
