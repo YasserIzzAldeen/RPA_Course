@@ -1,0 +1,182 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Browser&StateMachine_1",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "dtFilteredDataTable&Sequence_33"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sstrPassword&Sequence_9",
+        "strUserName&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Browser",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryNum",
+        "In_tsRetryInterval",
+        "in_intTimeoutM",
+        "in_strAcmeUrl",
+        "Out_Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExist&Sequence_3",
+        "boolCredValid&Sequence_7",
+        "boolDashboardExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryNum",
+        "In_tsRetryInterval",
+        "In_strUserName",
+        "In_strPassword",
+        "in_intTimeoutM"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_AccessWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolWorkItemsExist&Sequence_9",
+        "boolDashboardExist&Sequence_9",
+        "boolDashboardExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_ExtractWorkItemsData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDashboardExist&Sequence_3",
+        "boolWorkItemsExist&Sequence_3",
+        "dtExtractWorkItems&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_RetryInterval",
+        "Out_dtFilteredDataTable",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_AddDataToQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dicQueueItems&Sequence_7",
+        "strReference&Sequence_7",
+        "listQueueItems&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "In_dtFilteredDataTable",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExist&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_AppName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

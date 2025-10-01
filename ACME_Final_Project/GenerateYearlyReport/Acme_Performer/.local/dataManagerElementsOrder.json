@@ -1,0 +1,323 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "strHashGenWeb&StateMachine_1",
+        "Browser&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_AppName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Out_strHashGenWeb",
+        "Browser",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryNum",
+        "In_tsRetryInterval",
+        "in_intTimeoutM",
+        "in_strAcmeUrl",
+        "Out_Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExist&Sequence_3",
+        "boolCredValid&Sequence_7",
+        "boolDashboardExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryNum",
+        "In_tsRetryInterval",
+        "In_strUserName",
+        "In_strPassword",
+        "in_intTimeoutM"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "In_tsRetryInterval",
+        "In_intRetryNum",
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SystemException&Sequence_1",
+        "strActionUrl&Sequence_1",
+        "strClientCountry&Sequence_1",
+        "strClientName&Sequence_1",
+        "strClientID&Sequence_1",
+        "strAcmeHomeUrl&Sequence_1",
+        "strSecurityHash&Sequence_2",
+        "strTaxID&Sequence_2",
+        "FinalReportPath&Sequence_2",
+        "strUploadID&Sequence_2",
+        "strFolder&Sequence_2",
+        "strPath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_ExtractTaxID.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolWIDetails&Sequence_13",
+        "strClientDetails&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strAcmeHome",
+        "Out_strTaxID",
+        "In_strActionUrl",
+        "In_TransactionItem",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_AccessUpdateWI.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolWIExist&Sequence_12",
+        "boolUdateWIPanel&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strActionUrl",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_UpdateWIStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Browser&Sequence_6",
+        "boolUdateWIPanel&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strUploadID",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_NavigateToWI.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolWIDetails&Sequence_7",
+        "strClientDetails&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_tsRetryInterval",
+        "In_intRetryNum",
+        "In_TransactionItem",
+        "Out_strActionUrl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolLoginExist&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_intRetryNum",
+        "In_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_AccessDashboard.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolDashboardExist&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strAcmeHome",
+        "In_strActionUrl",
+        "In_strTaxID",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_AccessDownloadRep.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolReportsExist&Sequence_8",
+        "boolDashboardExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_DownloadReports.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolSaveExist&Sequence_8",
+        "strMonth&Sequence_1",
+        "boolReportsExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_Year",
+        "In_strAcmeHome",
+        "Out_strPath",
+        "Out_strFolder",
+        "In_strTaxID",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_MergeMonthlyReports.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtReport&Sequence_1",
+        "dtMonthlyReport&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strTaxID",
+        "In_strPath",
+        "Out_FinalReportPath",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_NavigateToUploadRep.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolUploadRepExist&Sequence_9",
+        "boolDashboardExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Acme_Workflows/Acme_UploadReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolWIExist&Sequence_9",
+        "strUploadText&Sequence_8",
+        "boolUploadRepExist&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_strActionUrl",
+        "Out_strUploadID",
+        "In_FinalReportPath",
+        "In_strTaxID",
+        "In_tsRetryInterval",
+        "In_intRetryNum"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
